@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/skills"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/skills"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestProductionSkillForgeStagesGatesAndPromotesEvidenceBackedRevision(

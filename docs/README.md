@@ -1,7 +1,7 @@
 # Ion documentation
 
 Welcome to the Ion documentation. Ion is a persistent general agent runtime from
-[MatrixMCL](https://matrixmcl.com): one identity with durable memory, bounded
+[Sidiora Labs](https://sidioralabs.com): one identity with durable memory, bounded
 execution, and visible evidence.
 
 ## Start here

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 // Generator is the normalized provider boundary used for pattern discovery.

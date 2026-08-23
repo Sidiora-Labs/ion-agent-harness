@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 // Cipher encrypts and decrypts document content at rest.

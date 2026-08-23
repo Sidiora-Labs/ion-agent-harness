@@ -5,10 +5,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/mmr"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/smt"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/mmr"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/smt"
 )
 
 // State is byte-deterministic derived state. The journal remains authoritative.

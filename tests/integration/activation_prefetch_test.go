@@ -14,14 +14,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/belief/premise"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/activation"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/hnsw"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/belief/premise"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/activation"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/hnsw"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 type integrationCipher struct{}

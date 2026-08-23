@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 // Bundle is the safe declarative plugin form. It composes existing tool names;

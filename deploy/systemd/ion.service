@@ -1,6 +1,6 @@
 [Unit]
 Description=Ion agent (web operator)
-Documentation=https://github.com/paxlabs-inc/ion-agent
+Documentation=https://github.com/Sidiora-Labs/ion-agent
 Wants=network-online.target
 After=network-online.target
 StartLimitIntervalSec=60

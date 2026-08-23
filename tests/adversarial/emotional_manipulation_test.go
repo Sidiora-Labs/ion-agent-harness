@@ -6,11 +6,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/security/safety"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/safety"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func Test_EmotionalManipulation_HighUrgencyCannotAuthorizeRedAction(t *testing.T) {

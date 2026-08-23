@@ -18,7 +18,7 @@ If you prefer not to install these locally, use the
 ## 2. Clone and build
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 make build
 ```

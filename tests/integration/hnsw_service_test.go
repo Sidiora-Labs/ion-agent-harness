@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory/hnsw"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/hnsw"
 )
 
 func TestHNSWServiceTenThousandCrashFallbackAndRebuild(t *testing.T) {

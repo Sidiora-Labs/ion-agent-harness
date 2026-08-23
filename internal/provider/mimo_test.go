@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestMiMoAdapterNormalizesContentAndReasoningToolDialects(t *testing.T) {

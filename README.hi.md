@@ -6,26 +6,25 @@
 
 **एक स्थायी agent. टिकाऊ स्मृति. सीमित निष्पादन. दृश्यमान प्रमाण.**
 
-Ion, [MatrixMCL](https://matrixmcl.com) का एक उन्नत सामान्य-प्रयोजन agent है — एक एकल
+Ion, [Sidiora Labs](https://sidioralabs.com) का एक उन्नत सामान्य-प्रयोजन agent है — एक एकल
 स्थायी पहचान जिसमें encrypted स्मृति, provider-निरपेक्ष model निष्पादन, और
 tools, projects, browsers, तथा विशेषज्ञ agents तक operator-नियंत्रित पहुँच है।
 
-[![CI](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/paxlabs-inc/ion-agent.svg)](https://pkg.go.dev/github.com/paxlabs-inc/ion-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/paxlabs-inc/ion-agent)](https://goreportcard.com/report/github.com/paxlabs-inc/ion-agent)
+[![CI](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Sidiora-Labs/ion-agent.svg)](https://pkg.go.dev/github.com/Sidiora-Labs/ion-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sidiora-Labs/ion-agent)](https://goreportcard.com/report/github.com/Sidiora-Labs/ion-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 [![Go 1.26](https://img.shields.io/badge/Go-1.26-00ADD8.svg)](https://go.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![OpenSSF Best Practices](https://img.shields.io/badge/OpenSSF-best%20practices-informational.svg)](https://www.bestpractices.dev/)
 
-[Product](https://ion.matrixmcl.com) ·
 [Documentation](docs/) ·
 [Architecture](ARCHITECTURE.md) ·
 [Security](SECURITY.md) ·
 [Contributing](CONTRIBUTING.md) ·
 [Roadmap](ROADMAP.md) ·
-[Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
+[Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
 
 [English](README.md) ·
 [简体中文](README.zh-CN.md) ·
@@ -143,7 +142,7 @@ loopback तक सीमित है; remote पहुँच के लिए 
 Ion को स्थानीय रूप से आज़माने का सबसे तेज़ तरीका। operator डिफ़ॉल्ट रूप से केवल loopback है।
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build the image and start the web operator on http://127.0.0.1:4174
@@ -166,7 +165,7 @@ variants, volumes, और environment variables के लिए [docker/README.
 | Chromium | native browser acceptance tests के लिए |
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 make build
@@ -320,7 +319,7 @@ classes, परिभाषित crown-jewel assets, और बाध्यक�
 user-दृश्यमान होते हैं।
 
 **सार्वजनिक issues में vulnerabilities की रिपोर्ट न करें।**
-[GitHub private vulnerability reporting](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)
+[GitHub private vulnerability reporting](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)
 का उपयोग करें और [SECURITY.md](SECURITY.md) में दी गई प्रक्रिया का पालन करें।
 
 ## Roadmap
@@ -332,8 +331,8 @@ projections हैं, आधिकारिक task ledger नहीं।
 
 ## समुदाय और समर्थन
 
-- **प्रश्न और विचार** — [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
-- **Bugs और features** — [GitHub Issues](https://github.com/paxlabs-inc/ion-agent/issues)
+- **प्रश्न और विचार** — [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
+- **Bugs और features** — [GitHub Issues](https://github.com/Sidiora-Labs/ion-agent/issues)
 - **मदद कैसे प्राप्त करें** — [SUPPORT.md](SUPPORT.md)
 - **समुदाय मानक** — [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **प्रोजेक्ट governance** — [GOVERNANCE.md](GOVERNANCE.md)
@@ -350,6 +349,6 @@ Ion एक मुफ़्त और open-source सॉफ़्टवेयर 
 
 <div align="center">
 
-Copyright © 2026 MatrixMCL — <a href="https://ion.matrixmcl.com">ion.matrixmcl.com</a>
+Copyright © 2026 Sidiora Labs
 
 </div>

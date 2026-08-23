@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/localipc"
+	"github.com/Sidiora-Labs/ion-agent/internal/localipc"
 )
 
 // PeerIdentityChecker validates an accepted UDS peer before credentials are

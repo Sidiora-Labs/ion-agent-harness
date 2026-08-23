@@ -49,7 +49,7 @@ Ion is a continuous-presence AI agent with autonomous action capabilities. This 
 **DO NOT** open a public GitHub issue for security vulnerabilities.
 
 Use
-[GitHub private vulnerability reporting](https://github.com/paxlabs-inc/ion-agent/security/advisories/new).
+[GitHub private vulnerability reporting](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new).
 
 Please include:
 - Description of the vulnerability

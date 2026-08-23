@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/paxlabs-inc/ion-agent/internal/reflection/cassandra"
-	"github.com/paxlabs-inc/ion-agent/internal/security/canary"
-	"github.com/paxlabs-inc/ion-agent/internal/security/circuit"
-	"github.com/paxlabs-inc/ion-agent/internal/security/memoryguard"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/reflection/cassandra"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/canary"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/circuit"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/memoryguard"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
 )
 
 // CircuitSink surfaces every circuit trigger to dashboard subscribers.

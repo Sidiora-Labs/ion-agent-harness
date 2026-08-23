@@ -10,8 +10,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/paxlabs-inc/ion-agent/internal/agent"
-	"github.com/paxlabs-inc/ion-agent/internal/skills"
+	"github.com/Sidiora-Labs/ion-agent/internal/agent"
+	"github.com/Sidiora-Labs/ion-agent/internal/skills"
 )
 
 func TestProductionRuntimeImportsAllOperatorSkillsAndLoadsApplicablePacks(

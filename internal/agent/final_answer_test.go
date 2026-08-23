@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/intent/prediction"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/intent/prediction"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 type forcedMismatchDetector struct{}

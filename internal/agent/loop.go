@@ -14,14 +14,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/action"
-	"github.com/paxlabs-inc/ion-agent/internal/belief/premise"
-	"github.com/paxlabs-inc/ion-agent/internal/belief/selfmodel"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/decision"
-	"github.com/paxlabs-inc/ion-agent/internal/reflection/cassandra"
-	"github.com/paxlabs-inc/ion-agent/internal/security/circuit"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/action"
+	"github.com/Sidiora-Labs/ion-agent/internal/belief/premise"
+	"github.com/Sidiora-Labs/ion-agent/internal/belief/selfmodel"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/decision"
+	"github.com/Sidiora-Labs/ion-agent/internal/reflection/cassandra"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/circuit"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 	"lukechampine.com/blake3"
 )
 

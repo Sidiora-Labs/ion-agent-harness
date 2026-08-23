@@ -5,7 +5,7 @@ This document describes how the Ion project is governed. It complements the
 
 ## Overview
 
-Ion is an open-source project stewarded by [MatrixMCL](https://matrixmcl.com).
+Ion is an open-source project stewarded by [Sidiora Labs](https://sidioralabs.com).
 Development is transparent and driven by an authoritative, machine-readable
 specification at [`spec/ion_spec/spec.kvx`](spec/ion_spec/spec.kvx). Anyone may
 contribute; a defined group of maintainers is responsible for the health,
@@ -44,7 +44,7 @@ The project favors **lazy consensus**: a proposal with no sustained objection
 after reasonable notice is accepted. For substantive or cross-cutting changes,
 the process is:
 
-1. Open a [discussion](https://github.com/paxlabs-inc/ion-agent/discussions) or
+1. Open a [discussion](https://github.com/Sidiora-Labs/ion-agent/discussions) or
    an issue describing the problem and proposed approach.
 2. For architectural or acceptance-affecting changes, capture the decision as an
    Architecture Decision Record under [`docs/adr/`](docs/adr/) and update

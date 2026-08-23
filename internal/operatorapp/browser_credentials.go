@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	nativebrowser "github.com/paxlabs-inc/ion-agent/internal/browser"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
+	nativebrowser "github.com/Sidiora-Labs/ion-agent/internal/browser"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
 )
 
 type browserCredentialHandler struct {

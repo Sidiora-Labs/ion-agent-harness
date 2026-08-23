@@ -9,7 +9,7 @@ import (
 	"github.com/google/uuid"
 	"lukechampine.com/blake3"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
 )
 
 // VectorSource reconstructs the live vector set from an authoritative source.

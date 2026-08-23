@@ -6,26 +6,25 @@
 
 **وكيل واحد دائم. ذاكرة راسخة. تنفيذ محدود. أدلة ظاهرة.**
 
-Ion وكيل عام متقدّم من [MatrixMCL](https://matrixmcl.com) — هوية واحدة دائمة
+Ion وكيل عام متقدّم من [Sidiora Labs](https://sidioralabs.com) — هوية واحدة دائمة
 بذاكرة مشفّرة، وتنفيذ نموذجي محايد تجاه المزوّد، ووصول يتحكّم فيه المشغّل
 إلى الأدوات والمشاريع والمتصفّحات والوكلاء المتخصّصين.
 
-[![CI](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/paxlabs-inc/ion-agent.svg)](https://pkg.go.dev/github.com/paxlabs-inc/ion-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/paxlabs-inc/ion-agent)](https://goreportcard.com/report/github.com/paxlabs-inc/ion-agent)
+[![CI](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Sidiora-Labs/ion-agent.svg)](https://pkg.go.dev/github.com/Sidiora-Labs/ion-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sidiora-Labs/ion-agent)](https://goreportcard.com/report/github.com/Sidiora-Labs/ion-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 [![Go 1.26](https://img.shields.io/badge/Go-1.26-00ADD8.svg)](https://go.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![OpenSSF Best Practices](https://img.shields.io/badge/OpenSSF-best%20practices-informational.svg)](https://www.bestpractices.dev/)
 
-[المنتج](https://ion.matrixmcl.com) ·
 [التوثيق](docs/) ·
 [البنية المعمارية](ARCHITECTURE.md) ·
 [الأمان](SECURITY.md) ·
 [المساهمة](CONTRIBUTING.md) ·
 [خارطة الطريق](ROADMAP.md) ·
-[النقاشات](https://github.com/paxlabs-inc/ion-agent/discussions)
+[النقاشات](https://github.com/Sidiora-Labs/ion-agent/discussions)
 
 [English](README.md) ·
 [简体中文](README.zh-CN.md) ·
@@ -154,7 +153,7 @@ Terminal UI ──┘                │                    │
 </div>
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build the image and start the web operator on http://127.0.0.1:4174
@@ -181,7 +180,7 @@ docker compose -f docker/docker-compose.yml up --build
 | Chromium | لاختبارات قبول المتصفّح الأصلية |
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 make build
@@ -381,7 +380,7 @@ Ion وكيل ذو حضور متواصل بقدرة على الفعل الذات�
 كل تجاوزات الأمان وتكون ظاهرة للمستخدم.
 
 **لا تُبلِّغ عن الثغرات في القضايا العامة.** استخدم
-[التبليغ الخاص عن الثغرات في GitHub](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)
+[التبليغ الخاص عن الثغرات في GitHub](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)
 واتبع العملية الواردة في [SECURITY.md](SECURITY.md).
 
 </div>
@@ -401,8 +400,8 @@ Ion وكيل ذو حضور متواصل بقدرة على الفعل الذات�
 
 <div dir="rtl">
 
-- **الأسئلة والأفكار** — [نقاشات GitHub](https://github.com/paxlabs-inc/ion-agent/discussions)
-- **العلل والميزات** — [قضايا GitHub](https://github.com/paxlabs-inc/ion-agent/issues)
+- **الأسئلة والأفكار** — [نقاشات GitHub](https://github.com/Sidiora-Labs/ion-agent/discussions)
+- **العلل والميزات** — [قضايا GitHub](https://github.com/Sidiora-Labs/ion-agent/issues)
 - **كيفية الحصول على المساعدة** — [SUPPORT.md](SUPPORT.md)
 - **معايير المجتمع** — [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **حوكمة المشروع** — [GOVERNANCE.md](GOVERNANCE.md)
@@ -429,6 +428,6 @@ Ion برمجيات حرّة ومفتوحة المصدر مُرخّصة بموج�
 
 <div align="center">
 
-Copyright © 2026 MatrixMCL — <a href="https://ion.matrixmcl.com">ion.matrixmcl.com</a>
+Copyright © 2026 Sidiora Labs
 
 </div>

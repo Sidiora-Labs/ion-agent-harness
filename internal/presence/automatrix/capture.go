@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 var ErrNonNegotiable = errors.New("automatrix: opportunity violates non-negotiables")

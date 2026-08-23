@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestStudioTurnToolsBindMutationsPlanAndIndexToRegisteredProject(t *testing.T) {

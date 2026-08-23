@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/agent"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/internal/agent"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
 )
 
 // studioCompletionGate keeps an accepted Studio outcome alive independently

@@ -7,11 +7,11 @@ body:
     attributes:
       value: |
         Thanks for taking the time to file a bug report. Please search
-        [existing issues](https://github.com/paxlabs-inc/ion-agent/issues) first.
+        [existing issues](https://github.com/Sidiora-Labs/ion-agent/issues) first.
 
         Do **not** report security vulnerabilities here. Use
-        [private vulnerability reporting](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)
-        instead. See [SECURITY.md](https://github.com/paxlabs-inc/ion-agent/blob/master/SECURITY.md).
+        [private vulnerability reporting](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)
+        instead. See [SECURITY.md](https://github.com/Sidiora-Labs/ion-agent/blob/master/SECURITY.md).
   - type: checkboxes
     id: preflight
     attributes:

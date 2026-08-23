@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestAnthropicAdapterRoundTripTranslation(t *testing.T) {

@@ -3,7 +3,7 @@ package agent
 import (
 	"context"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 // StreamingGenerator is the optional provider contract used when incremental

@@ -6,27 +6,26 @@
 
 **Um agente persistente. Memória durável. Execução delimitada. Evidência visível.**
 
-Ion é um agente geral avançado da [MatrixMCL](https://matrixmcl.com) — uma única
+Ion é um agente geral avançado da [Sidiora Labs](https://sidioralabs.com) — uma única
 identidade persistente com memória criptografada, execução de modelos neutra em
 relação ao provedor e acesso controlado pelo operador a ferramentas, projetos,
 navegadores e agentes especialistas.
 
-[![CI](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/paxlabs-inc/ion-agent.svg)](https://pkg.go.dev/github.com/paxlabs-inc/ion-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/paxlabs-inc/ion-agent)](https://goreportcard.com/report/github.com/paxlabs-inc/ion-agent)
+[![CI](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Sidiora-Labs/ion-agent.svg)](https://pkg.go.dev/github.com/Sidiora-Labs/ion-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sidiora-Labs/ion-agent)](https://goreportcard.com/report/github.com/Sidiora-Labs/ion-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 [![Go 1.26](https://img.shields.io/badge/Go-1.26-00ADD8.svg)](https://go.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![OpenSSF Best Practices](https://img.shields.io/badge/OpenSSF-best%20practices-informational.svg)](https://www.bestpractices.dev/)
 
-[Produto](https://ion.matrixmcl.com) ·
 [Documentação](docs/) ·
 [Arquitetura](ARCHITECTURE.md) ·
 [Segurança](SECURITY.md) ·
 [Contribuindo](CONTRIBUTING.md) ·
 [Roadmap](ROADMAP.md) ·
-[Discussões](https://github.com/paxlabs-inc/ion-agent/discussions)
+[Discussões](https://github.com/Sidiora-Labs/ion-agent/discussions)
 
 [English](README.md) ·
 [简体中文](README.zh-CN.md) ·
@@ -149,7 +148,7 @@ A maneira mais rápida de experimentar o Ion localmente. O operador é somente
 loopback por padrão.
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build the image and start the web operator on http://127.0.0.1:4174
@@ -172,7 +171,7 @@ variantes de imagem, volumes e variáveis de ambiente.
 | Chromium | para testes de aceitação nativos do navegador |
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 make build
@@ -329,7 +328,7 @@ principais em tempo ocioso não podem executar operações de alto risco ou exte
 e todas as substituições de segurança são registradas e visíveis ao usuário.
 
 **Não reporte vulnerabilidades em issues públicas.** Use o
-[relato privado de vulnerabilidades do GitHub](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)
+[relato privado de vulnerabilidades do GitHub](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)
 e siga o processo em [SECURITY.md](SECURITY.md).
 
 ## Roadmap
@@ -341,8 +340,8 @@ não o registro autoritativo de tarefas.
 
 ## Comunidade e suporte
 
-- **Perguntas e ideias** — [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
-- **Bugs e funcionalidades** — [GitHub Issues](https://github.com/paxlabs-inc/ion-agent/issues)
+- **Perguntas e ideias** — [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
+- **Bugs e funcionalidades** — [GitHub Issues](https://github.com/Sidiora-Labs/ion-agent/issues)
 - **Como obter ajuda** — [SUPPORT.md](SUPPORT.md)
 - **Padrões da comunidade** — [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **Governança do projeto** — [GOVERNANCE.md](GOVERNANCE.md)
@@ -360,6 +359,6 @@ O Ion é um software livre e de código aberto licenciado sob a
 
 <div align="center">
 
-Copyright © 2026 MatrixMCL — <a href="https://ion.matrixmcl.com">ion.matrixmcl.com</a>
+Copyright © 2026 Sidiora Labs
 
 </div>

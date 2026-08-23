@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/ssrf"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/ssrf"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestPoolStreamsContentReasoningAndFragmentedToolCalls(t *testing.T) {

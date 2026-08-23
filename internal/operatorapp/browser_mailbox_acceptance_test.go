@@ -17,12 +17,12 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	nativebrowser "github.com/paxlabs-inc/ion-agent/internal/browser"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	agentmailbox "github.com/paxlabs-inc/ion-agent/internal/mailbox"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	nativebrowser "github.com/Sidiora-Labs/ion-agent/internal/browser"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	agentmailbox "github.com/Sidiora-Labs/ion-agent/internal/mailbox"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 type acceptanceMailboxSource struct {

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use Ion in your research, please cite it as below."
 title: "Ion: a persistent general agent runtime with durable memory and bounded execution"
 abstract: >-
-  Ion is an advanced general agent from MatrixMCL: one persistent identity with
+  Ion is an advanced general agent from Sidiora Labs: one persistent identity with
   encrypted, actor-scoped memory, provider-neutral model execution with explicit
   fallback, and policy-, approval-, idempotency-, and audit-bound access to
   tools, projects, browsers, and specialist agents. Authority lives in a Go
@@ -10,10 +10,9 @@ abstract: >-
   protocol and never invent subsystem state.
 type: software
 authors:
-  - name: "MatrixMCL"
-    website: "https://matrixmcl.com"
-url: "https://ion.matrixmcl.com"
-repository-code: "https://github.com/paxlabs-inc/ion-agent"
+  - name: "Sidiora Labs"
+    website: "https://sidioralabs.com"
+repository-code: "https://github.com/Sidiora-Labs/ion-agent"
 license: MIT
 keywords:
   - ai-agent

@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/browser"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/internal/browser"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
 )
 
 // Registrations exposes receive and private verification handoff through the

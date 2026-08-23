@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 	"lukechampine.com/blake3"
 )
 

@@ -6,27 +6,26 @@
 
 **Un agent persistant. Une mémoire durable. Une exécution bornée. Des preuves visibles.**
 
-Ion est un agent généraliste avancé de [MatrixMCL](https://matrixmcl.com) — une identité
+Ion est un agent généraliste avancé de [Sidiora Labs](https://sidioralabs.com) — une identité
 unique et persistante dotée d'une mémoire chiffrée, d'une exécution de modèles neutre vis-à-vis
 du fournisseur, et d'un accès contrôlé par l'opérateur aux outils, aux projets, aux navigateurs
 et aux agents spécialisés.
 
-[![CI](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/paxlabs-inc/ion-agent.svg)](https://pkg.go.dev/github.com/paxlabs-inc/ion-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/paxlabs-inc/ion-agent)](https://goreportcard.com/report/github.com/paxlabs-inc/ion-agent)
+[![CI](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Sidiora-Labs/ion-agent.svg)](https://pkg.go.dev/github.com/Sidiora-Labs/ion-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sidiora-Labs/ion-agent)](https://goreportcard.com/report/github.com/Sidiora-Labs/ion-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 [![Go 1.26](https://img.shields.io/badge/Go-1.26-00ADD8.svg)](https://go.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![OpenSSF Best Practices](https://img.shields.io/badge/OpenSSF-best%20practices-informational.svg)](https://www.bestpractices.dev/)
 
-[Produit](https://ion.matrixmcl.com) ·
 [Documentation](docs/) ·
 [Architecture](ARCHITECTURE.md) ·
 [Sécurité](SECURITY.md) ·
 [Contribuer](CONTRIBUTING.md) ·
 [Feuille de route](ROADMAP.md) ·
-[Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
+[Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
 
 [English](README.md) ·
 [简体中文](README.zh-CN.md) ·
@@ -147,7 +146,7 @@ Pour la conception complète, voir [ARCHITECTURE.md](ARCHITECTURE.md).
 Le moyen le plus rapide d'essayer Ion en local. L'opérateur est limité au bouclage local par défaut.
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build the image and start the web operator on http://127.0.0.1:4174
@@ -170,7 +169,7 @@ variantes d'image, les volumes et les variables d'environnement.
 | Chromium | pour les tests d'acceptation du navigateur natif |
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 make build
@@ -327,7 +326,7 @@ principaux inactifs ne peuvent pas exécuter d'opérations à haut risque ou ext
 toutes les dérogations de sécurité sont journalisées et visibles par l'utilisateur.
 
 **Ne signalez pas de vulnérabilités dans des tickets publics.** Utilisez le
-[signalement privé de vulnérabilités de GitHub](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)
+[signalement privé de vulnérabilités de GitHub](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)
 et suivez le processus décrit dans [SECURITY.md](SECURITY.md).
 
 ## Feuille de route
@@ -339,8 +338,8 @@ informatives, et non le registre de tâches faisant autorité.
 
 ## Communauté et support
 
-- **Questions et idées** — [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
-- **Bugs et fonctionnalités** — [GitHub Issues](https://github.com/paxlabs-inc/ion-agent/issues)
+- **Questions et idées** — [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
+- **Bugs et fonctionnalités** — [GitHub Issues](https://github.com/Sidiora-Labs/ion-agent/issues)
 - **Comment obtenir de l'aide** — [SUPPORT.md](SUPPORT.md)
 - **Standards de la communauté** — [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **Gouvernance du projet** — [GOVERNANCE.md](GOVERNANCE.md)
@@ -357,6 +356,6 @@ Ion est un logiciel libre et open-source sous [licence MIT](LICENSE).
 
 <div align="center">
 
-Copyright © 2026 MatrixMCL — <a href="https://ion.matrixmcl.com">ion.matrixmcl.com</a>
+Copyright © 2026 Sidiora Labs
 
 </div>

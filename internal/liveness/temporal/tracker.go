@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/safety"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/safety"
 )
 
 type Clock interface{ Now() time.Time }

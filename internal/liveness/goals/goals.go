@@ -10,11 +10,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/curiosity"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/dreamweaver"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/relationship"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/curiosity"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/dreamweaver"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/relationship"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
 )
 
 type Source string

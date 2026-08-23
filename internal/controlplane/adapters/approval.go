@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/action"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/internal/action"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
 )
 
 // BrokerAuthorizer adapts the control-plane approval broker to consequential

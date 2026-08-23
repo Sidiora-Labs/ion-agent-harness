@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/integrity"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/integrity"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
 )
 
 type testClock struct {

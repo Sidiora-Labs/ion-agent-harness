@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
 )
 
 const (

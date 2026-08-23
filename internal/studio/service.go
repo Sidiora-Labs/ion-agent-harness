@@ -18,10 +18,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 const (

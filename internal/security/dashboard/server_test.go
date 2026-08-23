@@ -11,10 +11,10 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/paxlabs-inc/ion-agent/internal/reflection/cassandra"
-	"github.com/paxlabs-inc/ion-agent/internal/security/canary"
-	"github.com/paxlabs-inc/ion-agent/internal/security/circuit"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/reflection/cassandra"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/canary"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/circuit"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
 )
 
 const testBearerToken = "0123456789abcdef0123456789abcdef"

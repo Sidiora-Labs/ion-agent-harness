@@ -30,7 +30,7 @@ spec:
       containers:
         # Ion runtime: serves the operator on the Pod's loopback.
         - name: ion
-          image: ghcr.io/paxlabs-inc/ion-agent:latest
+          image: ghcr.io/Sidiora-Labs/ion-agent:latest
           imagePullPolicy: IfNotPresent
           args: ["dashboard"]
           envFrom:

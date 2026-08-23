@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
 )
 
 // SubsystemService is the narrow application-service boundary used to expose

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 var allowedTools = map[string]struct{}{

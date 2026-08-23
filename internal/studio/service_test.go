@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
 )
 
 type fixedClock struct{ now time.Time }

@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	securitycron "github.com/paxlabs-inc/ion-agent/internal/security/cron"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	securitycron "github.com/Sidiora-Labs/ion-agent/internal/security/cron"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 const (

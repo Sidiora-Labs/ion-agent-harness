@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	nativebrowser "github.com/paxlabs-inc/ion-agent/internal/browser"
-	"github.com/paxlabs-inc/ion-agent/internal/controllease"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	nativebrowser "github.com/Sidiora-Labs/ion-agent/internal/browser"
+	"github.com/Sidiora-Labs/ion-agent/internal/controllease"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 type projectEventEmitter struct {
