@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
 )
 
 const APIVersion = "v1"

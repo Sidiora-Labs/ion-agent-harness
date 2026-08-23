@@ -18,5 +18,5 @@ resources:
   - office-deployment.yaml
 
 images:
-  - name: ghcr.io/paxlabs-inc/ion-agent
+  - name: ghcr.io/Sidiora-Labs/ion-agent
     newTag: latest

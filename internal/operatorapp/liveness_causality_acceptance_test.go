@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/agent"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/decision"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/relationship"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/automatrix"
-	"github.com/paxlabs-inc/ion-agent/internal/security/safety"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/agent"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/decision"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/relationship"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/automatrix"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/safety"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 func TestProductionLivenessPolicyAestheticRepairRestartAndIsolation(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/security/coordination"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/coordination"
 )
 
 var (

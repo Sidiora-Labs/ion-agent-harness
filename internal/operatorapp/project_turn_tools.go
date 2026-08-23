@@ -10,14 +10,14 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/agent"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	studiocontrol "github.com/paxlabs-inc/ion-agent/internal/studio"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/internal/tools/builtin"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/agent"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	studiocontrol "github.com/Sidiora-Labs/ion-agent/internal/studio"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools/builtin"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 var studioProjectReference = regexp.MustCompile(

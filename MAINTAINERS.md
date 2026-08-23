@@ -10,22 +10,22 @@ Maintainers own technical direction, the release process, and the specification.
 
 | Maintainer | Affiliation | Areas |
 |---|---|---|
-| MatrixMCL Core Team | MatrixMCL | Runtime, security, specification, releases |
+| Sidiora Labs Core Team | Sidiora Labs | Runtime, security, specification, releases |
 
 ## Area reviewers
 
 | Area | Path | Reviewers |
 |---|---|---|
-| Runtime & agent loop | `internal/agent/`, `internal/tools/` | MatrixMCL Core Team |
-| Security | `internal/security/` | MatrixMCL Core Team |
-| Session & memory | `internal/session/`, `internal/memory/` | MatrixMCL Core Team |
-| Control plane & protocol | `internal/controlplane/`, `ui/shared/` | MatrixMCL Core Team |
-| Web & terminal operators | `ui/web/`, `ui/tui/` | MatrixMCL Core Team |
-| HNSW sidecar | `hnsw-service/` | MatrixMCL Core Team |
-| Deployment & packaging | `deploy/`, `docker/`, `packaging/` | MatrixMCL Core Team |
+| Runtime & agent loop | `internal/agent/`, `internal/tools/` | Sidiora Labs Core Team |
+| Security | `internal/security/` | Sidiora Labs Core Team |
+| Session & memory | `internal/session/`, `internal/memory/` | Sidiora Labs Core Team |
+| Control plane & protocol | `internal/controlplane/`, `ui/shared/` | Sidiora Labs Core Team |
+| Web & terminal operators | `ui/web/`, `ui/tui/` | Sidiora Labs Core Team |
+| HNSW sidecar | `hnsw-service/` | Sidiora Labs Core Team |
+| Deployment & packaging | `deploy/`, `docker/`, `packaging/` | Sidiora Labs Core Team |
 
 ## Contact
 
 - Security reports: see [SECURITY.md](SECURITY.md)
-- Conduct reports: conduct@matrixmcl.com
-- General questions: [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
+- Conduct reports: conduct@sidioralabs.com
+- General questions: [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)

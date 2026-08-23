@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
 )
 
 func decode(payload json.RawMessage, target any) error {

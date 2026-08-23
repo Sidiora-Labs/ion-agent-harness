@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/privatecomputer"
+	"github.com/Sidiora-Labs/ion-agent/internal/privatecomputer"
 )
 
 func TestPrivateComputerRealContainerDesktopAndIsolation(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controllease"
+	"github.com/Sidiora-Labs/ion-agent/internal/controllease"
 )
 
 const TerminalVersion = "ion.project-terminal.v1"

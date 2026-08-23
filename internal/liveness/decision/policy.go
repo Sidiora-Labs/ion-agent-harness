@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/relationship"
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/temporal"
-	"github.com/paxlabs-inc/ion-agent/internal/security/safety"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/relationship"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/temporal"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/safety"
 )
 
 type ResponseDetail string

@@ -10,14 +10,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	memoryjournal "github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	memoryjournal "github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func TestMemoryRecoverSelectsArchivedVersionAndPersistsWithoutMutatingSource(t *testing.T) {

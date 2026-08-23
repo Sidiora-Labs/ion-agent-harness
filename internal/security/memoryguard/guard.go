@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
 )
 
 var ErrProtectedType = errors.New("memoryguard: protected memory type")

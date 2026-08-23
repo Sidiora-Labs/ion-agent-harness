@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func TestSupervisedWorkflowCredentialHandoffRestartAndIsolation(t *testing.T) {

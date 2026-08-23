@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
 )
 
 type fixedClock struct{ now time.Time }

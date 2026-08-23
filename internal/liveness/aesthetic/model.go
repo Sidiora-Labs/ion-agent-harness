@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
 )
 
 type Clock interface{ Now() time.Time }

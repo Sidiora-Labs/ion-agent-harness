@@ -12,7 +12,7 @@
 # See deploy/README.md before exposing Ion beyond your host.
 services:
   ion:
-    image: ${ION_IMAGE:-ghcr.io/paxlabs-inc/ion-agent:latest}
+    image: ${ION_IMAGE:-ghcr.io/Sidiora-Labs/ion-agent:latest}
     environment:
       ION_DATA_DIR: /data
       ION_WEB_LISTEN: 127.0.0.1:4174

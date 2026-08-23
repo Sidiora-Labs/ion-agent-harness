@@ -7,18 +7,18 @@ reaches the right place quickly.
 
 - Read the [README](README.md) and the [documentation](docs/).
 - Check the [FAQ](docs/faq.md) and [troubleshooting guide](docs/troubleshooting.md).
-- Search existing [issues](https://github.com/paxlabs-inc/ion-agent/issues) and
-  [discussions](https://github.com/paxlabs-inc/ion-agent/discussions) — your
+- Search existing [issues](https://github.com/Sidiora-Labs/ion-agent/issues) and
+  [discussions](https://github.com/Sidiora-Labs/ion-agent/discussions) — your
   question may already be answered.
 
 ## Where to go
 
 | I want to... | Go to |
 |---|---|
-| Ask a question or share an idea | [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions) |
-| Report a reproducible bug | [Open a bug report](https://github.com/paxlabs-inc/ion-agent/issues/new?template=bug_report.yml) |
-| Request a feature | [Open a feature request](https://github.com/paxlabs-inc/ion-agent/issues/new?template=feature_request.yml) |
-| Report a security vulnerability | [Private advisory](https://github.com/paxlabs-inc/ion-agent/security/advisories/new) — **not** a public issue. See [SECURITY.md](SECURITY.md) |
+| Ask a question or share an idea | [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions) |
+| Report a reproducible bug | [Open a bug report](https://github.com/Sidiora-Labs/ion-agent/issues/new?template=bug_report.yml) |
+| Request a feature | [Open a feature request](https://github.com/Sidiora-Labs/ion-agent/issues/new?template=feature_request.yml) |
+| Report a security vulnerability | [Private advisory](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new) — **not** a public issue. See [SECURITY.md](SECURITY.md) |
 | Learn how to contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
 ## Writing a good report

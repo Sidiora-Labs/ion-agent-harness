@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/presence/automatrix"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/gateway"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/heartbeat"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/identity"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/integrity"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/morning"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/automatrix"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/gateway"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/heartbeat"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/identity"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/integrity"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/morning"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func TestHeartbeatAcceptanceExactCadenceFiveChecksAndNonBlocking(t *testing.T) {

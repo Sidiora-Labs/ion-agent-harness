@@ -15,7 +15,7 @@ import (
 	"syscall"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/privatecomputer"
+	"github.com/Sidiora-Labs/ion-agent/internal/privatecomputer"
 )
 
 func main() {

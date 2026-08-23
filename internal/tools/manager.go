@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 	"github.com/santhosh-tekuri/jsonschema/v5"
 )
 

@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for the suggestion. For open-ended ideas, consider starting a
-        [discussion](https://github.com/paxlabs-inc/ion-agent/discussions) first.
+        [discussion](https://github.com/Sidiora-Labs/ion-agent/discussions) first.
         Note that direction is driven by the authoritative specification at
         `spec/ion_spec/spec.kvx`.
   - type: textarea

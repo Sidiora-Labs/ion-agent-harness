@@ -6,25 +6,24 @@
 
 **一个持久的智能体。持久化记忆。有界执行。可见的证据。**
 
-Ion 是来自 [MatrixMCL](https://matrixmcl.com) 的先进通用智能体 —— 一个具备加密记忆、
+Ion 是来自 [Sidiora Labs](https://sidioralabs.com) 的先进通用智能体 —— 一个具备加密记忆、
 供应商中立模型执行，以及由操作者控制工具、项目、浏览器和专家智能体访问权限的单一持久身份。
 
-[![CI](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/paxlabs-inc/ion-agent/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/paxlabs-inc/ion-agent.svg)](https://pkg.go.dev/github.com/paxlabs-inc/ion-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/paxlabs-inc/ion-agent)](https://goreportcard.com/report/github.com/paxlabs-inc/ion-agent)
+[![CI](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sidiora-Labs/ion-agent/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Sidiora-Labs/ion-agent.svg)](https://pkg.go.dev/github.com/Sidiora-Labs/ion-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sidiora-Labs/ion-agent)](https://goreportcard.com/report/github.com/Sidiora-Labs/ion-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 [![Go 1.26](https://img.shields.io/badge/Go-1.26-00ADD8.svg)](https://go.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![OpenSSF Best Practices](https://img.shields.io/badge/OpenSSF-best%20practices-informational.svg)](https://www.bestpractices.dev/)
 
-[产品](https://ion.matrixmcl.com) ·
 [文档](docs/) ·
 [架构](ARCHITECTURE.md) ·
 [安全](SECURITY.md) ·
 [贡献](CONTRIBUTING.md) ·
 [路线图](ROADMAP.md) ·
-[讨论](https://github.com/paxlabs-inc/ion-agent/discussions)
+[讨论](https://github.com/Sidiora-Labs/ion-agent/discussions)
 
 [English](README.md) ·
 **简体中文** ·
@@ -133,7 +132,7 @@ Terminal UI ──┘                │                    │
 在本地尝试 Ion 的最快方式。操作者默认仅限环回（loopback）。
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build the image and start the web operator on http://127.0.0.1:4174
@@ -156,7 +155,7 @@ docker compose -f docker/docker-compose.yml up --build
 | Chromium | for native browser acceptance tests |
 
 ```bash
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 make build
@@ -301,7 +300,7 @@ Ion 是一个具备自主行动能力的持续在场智能体，其安全模型�
 （safety override）都会被记录并对用户可见。
 
 **请勿在公开 issue 中报告漏洞。** 请使用
-[GitHub 私密漏洞报告](https://github.com/paxlabs-inc/ion-agent/security/advisories/new)，
+[GitHub 私密漏洞报告](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new)，
 并遵循 [SECURITY.md](SECURITY.md) 中的流程。
 
 ## 路线图
@@ -312,8 +311,8 @@ Ion 是一个具备自主行动能力的持续在场智能体，其安全模型�
 
 ## 社区与支持
 
-- **问题与想法** —— [GitHub Discussions](https://github.com/paxlabs-inc/ion-agent/discussions)
-- **缺陷与功能** —— [GitHub Issues](https://github.com/paxlabs-inc/ion-agent/issues)
+- **问题与想法** —— [GitHub Discussions](https://github.com/Sidiora-Labs/ion-agent/discussions)
+- **缺陷与功能** —— [GitHub Issues](https://github.com/Sidiora-Labs/ion-agent/issues)
 - **如何获取帮助** —— [SUPPORT.md](SUPPORT.md)
 - **社区规范** —— [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **项目治理** —— [GOVERNANCE.md](GOVERNANCE.md)
@@ -329,6 +328,6 @@ Ion 是自由开源软件，依据 [MIT 许可证](LICENSE)授权。
 
 <div align="center">
 
-版权所有 © 2026 MatrixMCL —— <a href="https://ion.matrixmcl.com">ion.matrixmcl.com</a>
+版权所有 © 2026 Sidiora Labs
 
 </div>

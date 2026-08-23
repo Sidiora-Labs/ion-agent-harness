@@ -8,14 +8,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/security/canary"
-	"github.com/paxlabs-inc/ion-agent/internal/security/memoryguard"
-	"github.com/paxlabs-inc/ion-agent/internal/security/securememory"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/canary"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/memoryguard"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/securememory"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 type canaryEvents struct {

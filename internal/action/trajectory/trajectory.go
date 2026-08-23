@@ -11,7 +11,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/action"
+	"github.com/Sidiora-Labs/ion-agent/internal/action"
 	"lukechampine.com/blake3"
 )
 

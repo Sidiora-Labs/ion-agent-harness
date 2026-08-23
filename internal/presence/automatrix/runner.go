@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
-	"github.com/paxlabs-inc/ion-agent/internal/security/ssrf"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/ssrf"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
 )
 
 const (

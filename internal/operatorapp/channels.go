@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane/adapters"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/gateway"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane/adapters"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/gateway"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
 )
 
 const (

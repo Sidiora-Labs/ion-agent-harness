@@ -12,7 +12,7 @@
 
 ```bash
 # Clone
-git clone https://github.com/paxlabs-inc/ion-agent.git
+git clone https://github.com/Sidiora-Labs/ion-agent.git
 cd ion-agent
 
 # Build everything
@@ -90,4 +90,4 @@ chore: update dependencies
 ## Questions?
 
 Open a
-[GitHub discussion](https://github.com/paxlabs-inc/ion-agent/discussions).
+[GitHub discussion](https://github.com/Sidiora-Labs/ion-agent/discussions).

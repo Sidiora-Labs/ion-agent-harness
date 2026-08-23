@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/belief/selfmodel"
-	"github.com/paxlabs-inc/ion-agent/internal/security/coordination"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/belief/selfmodel"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/coordination"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func Test_SubAgentLateral_CrossSpawnMessageAndReplayAreRejected(t *testing.T) {

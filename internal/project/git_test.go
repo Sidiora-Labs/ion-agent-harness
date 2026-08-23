@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 func TestGitProjectionPreservesDirtyTreeAndCapturesStableBaseline(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	studiocontrol "github.com/paxlabs-inc/ion-agent/internal/studio"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	studiocontrol "github.com/Sidiora-Labs/ion-agent/internal/studio"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
 )
 
 func TestStudioProductionJourneysRestartDriftAndFalseCompletion(t *testing.T) {

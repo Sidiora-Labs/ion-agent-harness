@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/presence/gateway"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/gateway"
 )
 
 func TestTelegramUsesProductionTurnPathAndDurableCursorAcrossRestart(

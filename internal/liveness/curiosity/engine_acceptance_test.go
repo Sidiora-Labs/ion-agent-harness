@@ -16,12 +16,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/curiosity"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/automatrix"
-	"github.com/paxlabs-inc/ion-agent/internal/provider"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/curiosity"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/automatrix"
+	"github.com/Sidiora-Labs/ion-agent/internal/provider"
 )
 
 type acceptanceCipher struct{}

@@ -1,7 +1,7 @@
 # Default values for the Ion chart.
 
 image:
-  repository: ghcr.io/paxlabs-inc/ion-agent
+  repository: ghcr.io/Sidiora-Labs/ion-agent
   tag: ""  # defaults to .Chart.appVersion
   pullPolicy: IfNotPresent
 

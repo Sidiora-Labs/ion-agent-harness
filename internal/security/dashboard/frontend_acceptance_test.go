@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/paxlabs-inc/ion-agent/internal/security/dashboard"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/dashboard"
 )
 
 type dashboardClock struct{ at time.Time }

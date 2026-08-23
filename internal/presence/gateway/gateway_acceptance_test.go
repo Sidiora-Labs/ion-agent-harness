@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/paxlabs-inc/ion-agent/internal/presence/gateway"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/gateway"
 )
 
 type sharedCore struct {

@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	officecontrol "github.com/paxlabs-inc/ion-agent/internal/office"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	officecontrol "github.com/Sidiora-Labs/ion-agent/internal/office"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
 )
 
 type officeHandler struct {

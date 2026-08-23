@@ -61,7 +61,7 @@ systemd, see `journalctl -u ion.service`. Under Docker, see
 
 ## Still stuck?
 
-Search [issues](https://github.com/paxlabs-inc/ion-agent/issues) and
-[discussions](https://github.com/paxlabs-inc/ion-agent/discussions), then open a
-[bug report](https://github.com/paxlabs-inc/ion-agent/issues/new?template=bug_report.yml)
+Search [issues](https://github.com/Sidiora-Labs/ion-agent/issues) and
+[discussions](https://github.com/Sidiora-Labs/ion-agent/discussions), then open a
+[bug report](https://github.com/Sidiora-Labs/ion-agent/issues/new?template=bug_report.yml)
 with your `ion version`, OS, and full error output. See [SUPPORT.md](../SUPPORT.md).

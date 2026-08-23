@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
 )
 
 type scopedPreviewInspector struct{ actor uuid.UUID }

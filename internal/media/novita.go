@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/ssrf"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/ssrf"
 )
 
 const (

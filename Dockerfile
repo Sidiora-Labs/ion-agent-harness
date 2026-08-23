@@ -131,6 +131,6 @@ ENTRYPOINT ["/usr/bin/tini", "-g", "--", "/usr/local/bin/ion-appliance"]
 
 LABEL org.opencontainers.image.title="Ion appliance" \
       org.opencontainers.image.description="Ion, Ion Computer, and ONLYOFFICE in one Railway service" \
-      org.opencontainers.image.source="https://github.com/paxlabs-inc/ion-agent" \
+      org.opencontainers.image.source="https://github.com/Sidiora-Labs/ion-agent" \
       org.opencontainers.image.licenses="MIT AND AGPL-3.0-only" \
-      org.opencontainers.image.vendor="MatrixMCL"
+      org.opencontainers.image.vendor="Sidiora Labs"

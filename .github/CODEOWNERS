@@ -5,42 +5,42 @@
 # Order matters: the last matching pattern wins.
 
 # Default owners for everything in the repo.
-*                           @paxlabs-inc/ion-maintainers
+*                           @Sidiora-Labs/ion-maintainers
 
 # Runtime and agent loop
-/cmd/                       @paxlabs-inc/ion-maintainers
-/internal/agent/            @paxlabs-inc/ion-maintainers
-/internal/tools/            @paxlabs-inc/ion-maintainers
-/internal/swarm/            @paxlabs-inc/ion-maintainers
+/cmd/                       @Sidiora-Labs/ion-maintainers
+/internal/agent/            @Sidiora-Labs/ion-maintainers
+/internal/tools/            @Sidiora-Labs/ion-maintainers
+/internal/swarm/            @Sidiora-Labs/ion-maintainers
 
 # Security-sensitive code requires security reviewers
-/internal/security/         @paxlabs-inc/ion-security
-/SECURITY.md                @paxlabs-inc/ion-security
+/internal/security/         @Sidiora-Labs/ion-security
+/SECURITY.md                @Sidiora-Labs/ion-security
 
 # Session, memory, and durability
-/internal/session/          @paxlabs-inc/ion-maintainers
-/internal/memory/           @paxlabs-inc/ion-maintainers
-/internal/work/             @paxlabs-inc/ion-maintainers
-/internal/scheduler/        @paxlabs-inc/ion-maintainers
-/migrations/                @paxlabs-inc/ion-maintainers
+/internal/session/          @Sidiora-Labs/ion-maintainers
+/internal/memory/           @Sidiora-Labs/ion-maintainers
+/internal/work/             @Sidiora-Labs/ion-maintainers
+/internal/scheduler/        @Sidiora-Labs/ion-maintainers
+/migrations/                @Sidiora-Labs/ion-maintainers
 
 # Control plane and generated protocol
-/internal/controlplane/     @paxlabs-inc/ion-maintainers
-/ui/shared/                 @paxlabs-inc/ion-maintainers
+/internal/controlplane/     @Sidiora-Labs/ion-maintainers
+/ui/shared/                 @Sidiora-Labs/ion-maintainers
 
 # Operator clients
-/ui/web/                    @paxlabs-inc/ion-web
-/ui/tui/                    @paxlabs-inc/ion-web
+/ui/web/                    @Sidiora-Labs/ion-web
+/ui/tui/                    @Sidiora-Labs/ion-web
 
 # Rust vector-search sidecar
-/hnsw-service/              @paxlabs-inc/ion-maintainers
+/hnsw-service/              @Sidiora-Labs/ion-maintainers
 
 # Deployment, packaging, and infrastructure
-/deploy/                    @paxlabs-inc/ion-infra
-/docker/                    @paxlabs-inc/ion-infra
-/packaging/                 @paxlabs-inc/ion-infra
-/.devcontainer/             @paxlabs-inc/ion-infra
-/.github/                   @paxlabs-inc/ion-infra
+/deploy/                    @Sidiora-Labs/ion-infra
+/docker/                    @Sidiora-Labs/ion-infra
+/packaging/                 @Sidiora-Labs/ion-infra
+/.devcontainer/             @Sidiora-Labs/ion-infra
+/.github/                   @Sidiora-Labs/ion-infra
 
 # Specification is authoritative — maintainers only
-/spec/                      @paxlabs-inc/ion-maintainers
+/spec/                      @Sidiora-Labs/ion-maintainers

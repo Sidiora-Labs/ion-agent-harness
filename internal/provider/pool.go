@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/internal/security/ssrf"
-	"github.com/paxlabs-inc/ion-agent/pkg/protocol"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/ssrf"
+	"github.com/Sidiora-Labs/ion-agent/pkg/protocol"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 const maxProviderResponseBytes = 8 << 20

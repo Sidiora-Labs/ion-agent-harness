@@ -12,15 +12,15 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/presence/identity"
-	projectcontrol "github.com/paxlabs-inc/ion-agent/internal/project"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
-	"github.com/paxlabs-inc/ion-agent/internal/skills"
-	studiocontrol "github.com/paxlabs-inc/ion-agent/internal/studio"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
-	workcontrol "github.com/paxlabs-inc/ion-agent/internal/work"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/presence/identity"
+	projectcontrol "github.com/Sidiora-Labs/ion-agent/internal/project"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
+	"github.com/Sidiora-Labs/ion-agent/internal/skills"
+	studiocontrol "github.com/Sidiora-Labs/ion-agent/internal/studio"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
+	workcontrol "github.com/Sidiora-Labs/ion-agent/internal/work"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 // RuntimeInfo contains safe process metadata used by operator projections.

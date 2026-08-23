@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paxlabs-inc/ion-agent/migrations"
+	"github.com/Sidiora-Labs/ion-agent/migrations"
 )
 
 type migration struct {

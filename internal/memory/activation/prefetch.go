@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/belief/premise"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/hnsw"
-	"github.com/paxlabs-inc/ion-agent/internal/session"
+	"github.com/Sidiora-Labs/ion-agent/internal/belief/premise"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/hnsw"
+	"github.com/Sidiora-Labs/ion-agent/internal/session"
 )
 
 const prefetchLimit = 10

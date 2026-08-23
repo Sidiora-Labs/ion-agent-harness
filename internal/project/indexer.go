@@ -491,7 +491,7 @@ func dependenciesForLine(file, language, line string, lineNumber int) []Dependen
 		if value == "" {
 			continue
 		}
-		external := !strings.HasPrefix(value, ".") && !strings.HasPrefix(value, "github.com/paxlabs-inc/ion-agent") && !strings.HasPrefix(value, "crate") && !strings.HasPrefix(value, "self")
+		external := !strings.HasPrefix(value, ".") && !strings.HasPrefix(value, "github.com/Sidiora-Labs/ion-agent") && !strings.HasPrefix(value, "crate") && !strings.HasPrefix(value, "self")
 		result = append(result, Dependency{From: file, To: value, Kind: "import", Line: lineNumber, External: external})
 	}
 	return result

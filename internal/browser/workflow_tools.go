@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/tools"
+	"github.com/Sidiora-Labs/ion-agent/internal/tools"
 )
 
 func (supervisor *Supervisor) Registrations() []tools.Registration {

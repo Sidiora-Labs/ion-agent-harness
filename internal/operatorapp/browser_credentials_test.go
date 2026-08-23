@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	nativebrowser "github.com/paxlabs-inc/ion-agent/internal/browser"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	"github.com/paxlabs-inc/ion-agent/internal/security/vault"
-	"github.com/paxlabs-inc/ion-agent/pkg/types"
+	nativebrowser "github.com/Sidiora-Labs/ion-agent/internal/browser"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/vault"
+	"github.com/Sidiora-Labs/ion-agent/pkg/types"
 )
 
 type credentialTestAuthenticator struct {

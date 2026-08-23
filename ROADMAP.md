@@ -51,7 +51,7 @@ and one task is in progress at a time.
 
 Priorities follow the wave dependencies in the specification and the project's
 [governance](GOVERNANCE.md) process. To propose a change, open a
-[discussion](https://github.com/paxlabs-inc/ion-agent/discussions) or an issue.
+[discussion](https://github.com/Sidiora-Labs/ion-agent/discussions) or an issue.
 
 ## Non-goals
 

@@ -2,7 +2,7 @@
 
 ## What is Ion?
 
-Ion is an advanced general agent from [MatrixMCL](https://matrixmcl.com): one
+Ion is an advanced general agent from [Sidiora Labs](https://sidioralabs.com): one
 persistent identity with encrypted, durable memory, provider-neutral model
 execution, and operator-controlled access to tools, projects, browsers, and
 specialist agents. Authority lives in a Go runtime; the web and terminal
@@ -60,7 +60,7 @@ operator is React Ink. An optional vector-search sidecar is written in Rust.
 ## How do I report a security issue?
 
 Do not open a public issue. Use
-[private vulnerability reporting](https://github.com/paxlabs-inc/ion-agent/security/advisories/new).
+[private vulnerability reporting](https://github.com/Sidiora-Labs/ion-agent/security/advisories/new).
 See [SECURITY.md](../SECURITY.md).
 
 ## What license is Ion under?

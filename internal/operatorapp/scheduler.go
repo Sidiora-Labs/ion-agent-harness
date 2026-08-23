@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/controlplane"
-	agentscheduler "github.com/paxlabs-inc/ion-agent/internal/scheduler"
-	"github.com/paxlabs-inc/ion-agent/internal/security/policy"
+	"github.com/Sidiora-Labs/ion-agent/internal/controlplane"
+	agentscheduler "github.com/Sidiora-Labs/ion-agent/internal/scheduler"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/policy"
 )
 
 type scheduledTurnWaker struct {

@@ -19,11 +19,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/paxlabs-inc/ion-agent/internal/localipc"
-	"github.com/paxlabs-inc/ion-agent/internal/operatorapp"
-	"github.com/paxlabs-inc/ion-agent/internal/provider"
-	tuiassets "github.com/paxlabs-inc/ion-agent/ui/tui"
-	webassets "github.com/paxlabs-inc/ion-agent/ui/web"
+	"github.com/Sidiora-Labs/ion-agent/internal/localipc"
+	"github.com/Sidiora-Labs/ion-agent/internal/operatorapp"
+	"github.com/Sidiora-Labs/ion-agent/internal/provider"
+	tuiassets "github.com/Sidiora-Labs/ion-agent/ui/tui"
+	webassets "github.com/Sidiora-Labs/ion-agent/ui/web"
 )
 
 const defaultDashboardAddress = "127.0.0.1:4174"

@@ -1,17 +1,16 @@
 apiVersion: v2
 name: ion
-description: Ion — a persistent general agent runtime from MatrixMCL
+description: Ion — a persistent general agent runtime from Sidiora Labs
 type: application
 version: 0.1.0
 appVersion: "0.1.0"
-home: https://ion.matrixmcl.com
+home: https://sidioralabs.com
 sources:
-  - https://github.com/paxlabs-inc/ion-agent
+  - https://github.com/Sidiora-Labs/ion-agent
 maintainers:
-  - name: MatrixMCL
-    url: https://matrixmcl.com
+  - name: Sidiora Labs
+    url: https://sidioralabs.com
 keywords:
   - ai-agent
   - agent-runtime
   - go
-icon: https://ion.matrixmcl.com/icon.png

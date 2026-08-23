@@ -16,13 +16,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/paxlabs-inc/ion-agent/internal/liveness/dreamweaver"
-	"github.com/paxlabs-inc/ion-agent/internal/memory"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/activation"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/cortex"
-	"github.com/paxlabs-inc/ion-agent/internal/memory/journal"
-	"github.com/paxlabs-inc/ion-agent/internal/provider"
-	"github.com/paxlabs-inc/ion-agent/internal/security/memoryguard"
+	"github.com/Sidiora-Labs/ion-agent/internal/liveness/dreamweaver"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/activation"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/cortex"
+	"github.com/Sidiora-Labs/ion-agent/internal/memory/journal"
+	"github.com/Sidiora-Labs/ion-agent/internal/provider"
+	"github.com/Sidiora-Labs/ion-agent/internal/security/memoryguard"
 )
 
 type dreamCipher struct{}
