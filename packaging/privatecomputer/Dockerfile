@@ -8,7 +8,7 @@ COPY internal/privatecomputer ./internal/privatecomputer
 RUN --mount=type=cache,target=/root/.cache/go-build \
     CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o /out/ion-computer ./cmd/ion-computer
 
-FROM debian@sha256:7b140f374b289a7c2befc338f42ebe6441b7ea838a042bbd5acbfca6ec875818
+FROM debian@sha256:2dc419c6d7fe3dad0a2f9fd469c34cc90b0f9ba642d8fde837fe3d7d34a0e7f1
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
